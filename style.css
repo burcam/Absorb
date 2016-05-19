@@ -1,3 +1,30 @@
-.hello {
-	text-decoration: underline;
+body{
+	font-size: 0;
+}
+.row {
+	max-width: 512;
+	margin: auto;
+}
+.tilecontainer {
+    display: inline-block;
+    position: relative;
+    width: 6.25%;
+    max-width: 32px;
+    min-width: 1px;
+    
+}
+.tiletop {
+    padding-top: 100%; /* 1:1 aspect ratio */
+}
+.tile {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+}
+
+#tile20 .tile{
+	background-color: blue;
 }
