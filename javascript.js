@@ -1,3 +1,3 @@
-window.onload = function(){
-	alert('hello, world!');
-};
+$(document).ready(function(){
+	$('.tileContainer').load('_tile.html');
+});
